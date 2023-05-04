@@ -1778,7 +1778,16 @@ footer {
     overflow: hidden;
     color: #000;
     background: #f8f8f8;
-    text-align: center;
+    text-align: left;
+}
+
+footer h5 {
+    
+}
+
+footer p {
+    text-align: justify;
+    
 }
 
 footer .social-icons li {
@@ -1800,6 +1809,7 @@ footer .social-icons li a {
     background-color: transparent;
     letter-spacing: 2px;
     font-family: "Dosis", sans-serif;
+    text-align: left;
 }
 
 footer .social-icons a:hover i {
