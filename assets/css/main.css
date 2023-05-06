@@ -360,7 +360,7 @@ nav {
 /*This is where you place your image url. Most images should work by just replacing the url. */
 .hero-image-container {
     height: 100%;
-    background-image: url(//assets/images/parallax-1.jpg);
+    background-image: url(../images/parallax-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
