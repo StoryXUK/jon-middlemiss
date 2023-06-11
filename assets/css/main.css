@@ -366,6 +366,15 @@ nav {
     background-size: cover;
 }
 
+/*This is where you place your image url. Most images should work by just replacing the url. */
+.hero-image-container-legacy {
+    height: 100%;
+    background-image: url(../images/jm-survey-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .hero-text {
     text-align: center;
     width: 100%;
@@ -1218,6 +1227,7 @@ a.cbp-l-loadMore-link:hover {
     color: #000000;
     margin-top: 10px;
     margin-bottom: 38px;
+    text-align: justify;
 }
 
 .post-info img {
