@@ -1,4 +1,4 @@
- // JavaScript code to remove HTML portion from URL
- const url = "https://example.com/page.html";
- const cleanUrl = url.replace(/\.html$/, "");
- console.log(cleanUrl);
+// removeHtmlFromUrl.js
+const url = window.location.href;
+const cleanUrl = url.replace(/\.html$/, "");
+console.log(cleanUrl);
