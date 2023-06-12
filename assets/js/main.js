@@ -965,3 +965,20 @@ $(document).on('click', '.shop-qty .plus, .shop-qty .minus', function(){
       modal.style.display = 'none';
     }
   });
+
+
+
+  // Function to open the pop-up
+  function openPopup() {
+    document.getElementById("signup-popup").style.display = "block";
+  }
+
+  // Function to close the pop-up
+  function closePopup() {
+    document.getElementById("signup-popup").style.display = "none";
+  }
+
+
+
+
+
