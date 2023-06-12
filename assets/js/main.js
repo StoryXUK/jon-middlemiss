@@ -84,14 +84,7 @@
   });
  
 
-  function mt_minimal_loading() {
-  $(".minimal-page-loader").fadeOut("slow");
-  }
-
-  function mt_image_loading() {
-  $(".loader-icon").delay(500).fadeOut();
-  $(".image-page-loader").delay(700).fadeOut("slow");
-  }
+ 
 
   /* ================================= */
   /* ::::::: 2. Mobile Menu :::::::::: */
@@ -979,6 +972,14 @@ $(document).on('click', '.shop-qty .plus, .shop-qty .minus', function(){
   }
 
 
+
+ // Remove the preloader after 2 seconds
+ window.addEventListener('load', function () {
+  var preloader = document.querySelector('.preloader');
+  setTimeout(function () {
+    preloader.style.display = 'none';
+  }, 2000); // 2 seconds (2000 milliseconds)
+});
 
 
 
